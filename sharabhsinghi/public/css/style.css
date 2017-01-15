@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Lovelo";
+    src: url("../fonts/Lovelo%20Black.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: "Walsheim";
+    src: url("../fonts/GT-Walsheim-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+body{
+	background-color:#f2f2f2;
+}
+
+.main{
+	margin: 40px auto;
+    width: 800px;
+	color:#00334d;
+	font-family:"Walsheim";
+}
+
+h1{
+	margin:0px;
+}
+
+h1,h2,h3{
+	font-family:"Lovelo";
+	font-weight:bold;
+}
+
+.div-1{
+	width:100%;
+}
+
+.navbar{
+	margin:15px 0;
+	text-align: center;
+}
+
+.navbar .divider {
+	color: white;
+    position: relative;
+    top: 12px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00334d;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	float:left;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #002233;
+}
+
+.navbar .active {
+    background-color: #00111a;
+}
+
+.div-2{
+	background-color:white;
+}
+
+.objective{
+	overflow: auto;
+	margin: 25px 0px;
+	border: solid 5px skyblue;
+	border-left: none;
+    border-right: none;
+}
+.objective img{
+	margin:20px;
+}
+
+.objective p{
+	padding:5px 0px;
+	margin-left:20px;
+	margin-top:3px;
+}
