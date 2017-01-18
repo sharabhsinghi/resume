@@ -22,7 +22,11 @@ body{
 	font-family:"Walsheim";
 }
 
-h1{
+.main div{
+	padding:10px 30px;
+}
+
+.div-1 h1{
 	margin:0px;
 }
 
@@ -31,13 +35,9 @@ h1,h2,h3{
 	font-weight:bold;
 }
 
-.div-1{
-	width:100%;
-}
-
 .navbar{
 	margin:15px 0;
-	text-align: center;
+	padding: 0px !important;
 }
 
 .navbar .divider {
@@ -77,23 +77,40 @@ h1,h2,h3{
     background-color: #00111a;
 }
 
-.div-2{
+.d1{
 	background-color:white;
-}
-
-.objective{
 	overflow: auto;
-	margin: 25px 0px;
 	border: solid 5px skyblue;
 	border-left: none;
     border-right: none;
 }
+.objective{
+	margin: 20px 0px 0px 0px;
+}
 .objective img{
 	margin:20px;
+	border-right:solid 5px skyblue;
 }
 
 .objective p{
 	padding:5px 0px;
 	margin-left:20px;
 	margin-top:3px;
+}
+
+.d2{
+	background:#00334d;
+	color:white;
+}
+
+.education table{
+	color:white;
+	border-color:#002233;
+	text-align:center;
+}
+.education table td{
+	padding:2px 20px;
+}
+.education table th{
+	padding:10px;
 }
